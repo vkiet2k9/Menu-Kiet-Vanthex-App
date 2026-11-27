@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kietvanthex.menu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:3:5-77
+11-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:3:22-75
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:4:5-76
+12-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:4:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+13-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:5:5-88
+13-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:5:22-86
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:6:5-76
+14-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:6:22-74
+15
+16    <application
+16-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:8:5-40:19
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="Menu Kiệt Vanthex"
+20-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:9:9-42
+21        android:theme="@android:style/Theme.Material.NoActionBar" >
+21-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:11:9-66
+22        <activity
+22-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:13:9-18:20
+23            android:name="com.kietvanthex.menu.MainActivity"
+23-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:13:19-47
+24            android:exported="true" >
+24-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:13:48-71
+25            <intent-filter>
+25-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:14:13-17:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:15:17-68
+26-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:16:17-76
+28-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:16:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:20:9-27:19
+33            android:name="com.kietvanthex.menu.MenuService"
+33-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:21:13-40
+34            android:exported="false"
+34-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:22:13-37
+35            android:foregroundServiceType="specialUse" >
+35-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:23:13-55
+36            <property
+36-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:24:13-26:47
+37                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+37-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:25:17-76
+38                android:value="overlay_menu" />
+38-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:26:17-45
+39        </service>
+40        <service
+40-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:29:9-39:19
+41            android:name="com.kietvanthex.menu.TouchService"
+41-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:30:13-41
+42            android:exported="true"
+42-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:31:13-36
+43            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+43-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:32:13-79
+44            <intent-filter>
+44-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:33:13-35:29
+45                <action android:name="android.accessibilityservice.AccessibilityService" />
+45-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:34:17-91
+45-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:34:25-89
+46            </intent-filter>
+47
+48            <meta-data
+48-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:36:13-38:63
+49                android:name="android.accessibilityservice"
+49-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:37:17-60
+50                android:resource="@xml/accessibility_config" />
+50-->/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/AndroidManifest.xml:38:17-61
+51        </service>
+52    </application>
+53
+54</manifest>

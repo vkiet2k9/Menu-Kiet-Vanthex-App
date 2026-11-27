@@ -1,0 +1,7 @@
+com.kietvanthex.menu.app-pngs-0 /data/data/com.termux/files/home/MenuKiệtVanthex/app/build/generated/res/pngs/debug
+com.kietvanthex.menu.app-resValues-1 /data/data/com.termux/files/home/MenuKiệtVanthex/app/build/generated/res/resValues/debug
+com.kietvanthex.menu.app-packageDebugResources-2 /data/data/com.termux/files/home/MenuKiệtVanthex/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.kietvanthex.menu.app-packageDebugResources-3 /data/data/com.termux/files/home/MenuKiệtVanthex/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.kietvanthex.menu.app-debug-4 /data/data/com.termux/files/home/MenuKiệtVanthex/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.kietvanthex.menu.app-debug-5 /data/data/com.termux/files/home/MenuKiệtVanthex/app/src/debug/res
+com.kietvanthex.menu.app-main-6 /data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/res

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kietvanthex.menu.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/MenuKiệtVanthex/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "71,16",
+                        "endColumns": "72,54",
+                        "endOffsets": "139,66"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,128",
+                        "endColumns": "72,54",
+                        "endOffsets": "123,178"
+                    }
+                }
+            ]
+        }
+    ]
+}
